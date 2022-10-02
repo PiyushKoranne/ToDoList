@@ -1,0 +1,147 @@
+/* /* .ToDo--Container {
+  min-height: 100vh;
+  min-width: 100vw;
+  background-color: #eef1ff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  z-index:;
+} */
+
+/* .Form--Container {
+  background-color: white;
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+} */
+
+/* .Form--Container > form > input {
+  background-color: #eef1ff;
+  width: 70vw;
+  font-weight: bolder;
+  font-size: 1.06em;
+} */
+/* .Form--Container > form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+} */
+/* .Form--Container > form > button {
+  margin: 10px;
+  width: 30vw;
+  background-color: #b1b2ff;
+  padding: 5px;
+  color: white;
+  font-weight: bold;
+  color: black;
+  /* position: absolute; */
+/* bottom: 0%;
+  right: 11%;
+} */
+/* .Form--Container > form > button:hover {
+  background-color: #8758ff;
+} */
+/* .ToDo--Container {
+  display: flex;
+  flex-direction: column;
+} */
+/* .Todo--Item {
+  background-color: white;
+  border-radius: 5px;
+  border: 1px solid black;
+} */
+
+.ToDo--App--Container {
+    min-width: 100vw;
+    min-height: 100vh;
+    /* height: 100vh; */
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #eef1ff;
+    position: relative;
+  }
+  .Form--Container {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 600px;
+    height: 200px;
+    margin: 20px;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  }
+  .Form--Container > form > input {
+    background-color: #eef1ff;
+    font-size: 1.07rem;
+    font-weight: bold;
+    padding: 4px;
+  }
+  .Form--Container > button {
+    /* margin: 10px; */
+    /* width: 30vw; */
+    background-color: black;
+    padding: 8px 15px;
+    color: white;
+    font-weight: bold;
+    /* color: black; */
+    border: none;
+    border-radius: 2px;
+    /* box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23); */
+  }
+  .Form--Container > button:hover {
+    background-color: #8758ff;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  }
+  .ToDo--Item--Container {
+    width: 100vw;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .Todo--Item {
+    background-color: white;
+    width: 60%;
+    word-wrap: break-word;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 5px;
+    margin-top: 10px;
+    position: relative;
+    font-family: 'Poppins';
+    font-weight: bold;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  }
+
+  .Todo--Item--Icon{
+    transform: scale(1.4);
+    position: absolute;
+    right: 2%;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+.Flag--Div{
+    position: absolute;
+    top: 9.5%;
+    border: 2px solid maroon;
+    background-color: white;
+    font-family: 'Poppins';
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    padding: 2px;
+    color: #F96666;
+    font-weight: bolder;
+    
+  }
