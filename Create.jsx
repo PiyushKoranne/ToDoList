@@ -2182,7 +2182,7 @@ const Create = () => {
 				setSocialChecker(prev =>({...prev, pinterest:true}));
 				(socialCounter?.indexOf("pinterest") === -1 && socialCounter?.length < 5) && setSocialCounter(prev => ([...prev,"pinterest"]))
 			} 
-	},[userData?.facebook,userData?.linkedIn, userData?.instagram, userData?.twitter,userData?.skype, userData?.youtube,userData?.whatsapp,userData?.pinterest ])
+	},[userData?.facebook,userData?.linkedIn, userData?.instagram, userData?.twitter,userData?.skype, userData?.youtube,userData?.whatsapp,userData?.pinterest, socialChecker?.facebook, socialChecker?.instagram, socialChecker?.linkedIn, socialChecker?.pinterest, socialChecker?.skype, socialChecker?.twitter, socialChecker?.whatsapp, socialChecker?.youtube])
 
 	useEffect(()=>{
 		if(userData?.youtube){
